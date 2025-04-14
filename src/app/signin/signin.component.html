@@ -1,1 +1,19 @@
-<p>signin works!</p>
+<div class="form-container">
+    <form [formGroup]="signinForm" (ngSubmit)="onSubmit()" nz-form [nzLayout]="'vertical'">
+        <nz-form-item>
+          <nz-form-label [nzRequired]="true" nzFor="email">Email</nz-form-label>
+          <nz-form-control>
+            <input nz-input formControlName="email" id="email" type="email" placeholder="Enter your email" />
+          </nz-form-control>
+        </nz-form-item>
+    
+        <nz-form-item>
+          <nz-form-label [nzRequired]="true" nzFor="password">Password</nz-form-label>
+          <nz-form-control>
+            <input nz-input formControlName="password" id="password" type="password" placeholder="Enter your password" />
+          </nz-form-control>
+        </nz-form-item>
+    
+        <button nz-button nzType="primary">Sign In</button>
+      </form>
+</div>
