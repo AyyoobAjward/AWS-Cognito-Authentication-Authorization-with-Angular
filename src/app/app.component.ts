@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
-import { RouterLink, RouterOutlet } from '@angular/router';
+import { Component, inject } from '@angular/core';
+import { Router, RouterLink, RouterOutlet } from '@angular/router';
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzMenuModule } from 'ng-zorro-antd/menu';
 
@@ -17,5 +17,8 @@ import { NzMenuModule } from 'ng-zorro-antd/menu';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-
+  private router = inject(Router)
+  signout(){
+    this.router.navigate(['/']);
+  }
 }
