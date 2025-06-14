@@ -4,22 +4,14 @@ This is a simple authentication and authorization demo app built with **Angular*
 
 ## ✨ Features
 
-- 📝 User Sign Up
-- 🔐 User Sign In
-- 👤 Protected Profile Page
-- 🚪 Sign Out
-- 🎨 Stylish UI with Ng Zorro
+- 📝 User Sign Up  
+- 🔐 User Sign In  
+- 👤 Protected Profile Page  
+- 🚪 Sign Out  
+- 🎨 Stylish UI with Ng Zorro  
 
 ## 🔧 Tech Stack
 
-- Angular
-- AWS Cognito
-- Ng Zorro (Ant Design for Angular)
-
-## 📦 Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/aws-cognito-auth-app.git
-cd aws-cognito-auth-app
+- Angular  
+- AWS Cognito  
+- Ng Zorro (Ant Design for Angular)  
